@@ -15,7 +15,7 @@ export const theme = {
         color30: "#8fbfd6",
         color40: "#",
         color50: "#",
-        color60: "#",
+        color60: "#394f63",
         color70: "#",
         color80: "#0d2845",
         color90: "#07172b",
@@ -23,14 +23,14 @@ export const theme = {
     },
 
     gray:{
-        gray10: "#f8f9fa",
-        gray20: "#e9ecef",
-        gray30: "#dee2e6",
-        gray40: "#ced4da",
-        gray50: "#adb5bd",
-        gray60: "#6c757d",
-        gray70: "#495057",
-        gray80: "#343a40",
-        gray90: "#212529",
+        color10: "#f8f9fa",
+        color20: "#e9ecef",
+        color30: "#dee2e6",
+        color40: "#ced4da",
+        color50: "#adb5bd",
+        color60: "#6c757d",
+        color70: "#495057",
+        color80: "#343a40",
+        color90: "#212529",
     }
 }

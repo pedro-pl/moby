@@ -4,13 +4,13 @@ import { theme } from "../../styles/theme";
 export const Container = styled.div`
   width: 100%;
   height: 8vh;
-  padding: 0 15rem;
+  padding: 0 calc(15rem + 1vh);
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: ${theme.white.color10};
-  border-bottom: 1px solid ${theme.gray.gray30};
+  border-bottom: 1px solid ${theme.gray.color30};
   position: fixed;
   top: 0;
 
@@ -40,7 +40,7 @@ export const InfoField = styled.div`
   span {
     font-size: 12px;
     line-height: 20px;
-    color: ${theme.gray.gray60};
+    color: ${theme.gray.color60};
     text-align: end;
   }
 `;

@@ -1,7 +1,7 @@
 import { TextIndentIcon, TextOutdentIcon } from "@phosphor-icons/react";
 import { Container, ImageProfile, InfoField, ProfileContainer } from "./styles";
-import { DropdownTrigger } from "../Dropdowns/dropdown";
-import { DropdownMenuProfile } from "../Dropdowns/dropdown-profile";
+import { DropdownTrigger } from "../dropdowns/dropdown";
+import { DropdownMenuProfile } from "../dropdowns/dropdown-profile";
 
 import ImageTest from "../../assets/images/me.jpg";
 

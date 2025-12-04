@@ -14,7 +14,7 @@ export const Container = styled.aside<SidebarProps>`
   z-index: 999;
   position: fixed;
   background-color: ${theme.white.color10};
-  border: 1px solid ${theme.gray.gray30};
+  border: 1px solid ${theme.gray.color30};
   border-radius: 8px;
 
   bottom: 1vh;
@@ -47,7 +47,7 @@ export const Header = styled.div`
 export const Separator = styled.div`
   width: 70%;
   height: 1px;
-  background-color: ${theme.gray.gray30};
+  background-color: ${theme.gray.color30};
 `;
 
 export const Section = styled.div`
@@ -83,7 +83,7 @@ export const Item = styled(NavLink)`
 
   font-size: 18px;
   font-weight: 500;
-  color: ${theme.gray.gray70};
+  color: ${theme.gray.color70};
   text-decoration: none;
   transition: 0.1s;
 
@@ -94,7 +94,7 @@ export const Item = styled(NavLink)`
   }
 
   &:hover {
-    background-color: ${theme.gray.gray20};
+    background-color: ${theme.gray.color20};
     transition: 0.1s;
   }
 `;
