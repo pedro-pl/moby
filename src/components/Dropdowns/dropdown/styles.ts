@@ -24,12 +24,12 @@ export const StyledMenuContent = styled(Content)`
 
 export const StyledSeparator = styled(Separator)`
   height: 1px;
-  background-color: ${theme.gray.gray40};
+  background-color: ${theme.gray.color40};
 `;
 
 export const StyledItem = styled(Item)<{ exit?: boolean }>`
   all: unset;
-  color: ${theme.gray.gray80};
+  color: ${theme.gray.color80};
   border-radius: 3px;
   display: flex;
   align-items: center;
@@ -41,10 +41,10 @@ export const StyledItem = styled(Item)<{ exit?: boolean }>`
   cursor: pointer;
 
   &:hover{
-    color: ${theme.gray.gray60};
+    color: ${theme.gray.color60};
 
     svg {
-      color: ${theme.gray.gray60};
+      color: ${theme.gray.color60};
     }
   }
 
@@ -55,7 +55,7 @@ export const StyledItem = styled(Item)<{ exit?: boolean }>`
   ${(props) =>
 		props.exit &&
 		css` 
-    color: ${theme.gray.gray80};
+    color: ${theme.gray.color80};
   `}
   
 `;

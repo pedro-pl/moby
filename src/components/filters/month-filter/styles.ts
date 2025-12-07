@@ -17,7 +17,7 @@ export const Container = styled.div`
 
 export const ActualMonth = styled.h2`
   padding: 6px 2rem;
-  background-color: ${theme.blue.color60};
+  background-color: ${theme.blue.color70};
   color: ${theme.gray.color20};
   letter-spacing: 2px;
   margin: 0;

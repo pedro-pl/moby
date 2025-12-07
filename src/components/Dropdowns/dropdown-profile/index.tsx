@@ -25,7 +25,7 @@ export function DropdownMenuProfile() {
 
 			<DropdownMenuSeparator />
 
-			<DropdownMenuItem exit>
+			<DropdownMenuItem exit onClick={() => navigate("/login")}>
 				<RxExit />
 				Sair
 			</DropdownMenuItem>
