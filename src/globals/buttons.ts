@@ -3,6 +3,8 @@ import styled, { css } from "styled-components";
 import { theme } from "../styles/theme";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+  width?: string;
+  height?: string;
   variant: "light" | "middle" | "dark";
 };
 
@@ -36,6 +38,21 @@ export const StyledButton = styled.button<ButtonProps>`
   ${({ variant }) =>
     variant === "middle" &&
     css`
+      background-color: ${theme.blue.color70};
+      border: 1px solid ${theme.blue.color70};
+      color: ${theme.white.default};
+      transition: 0.2s;
+
+      &:hover {
+        background-color: ${theme.blue.color80};
+      border: 1px solid ${theme.blue.color80};
+        transition: 0.2s;
+      }
+    `}
+    
+  ${({ variant }) =>
+    variant === "dark" &&
+    css`
       background-color: ${theme.blue.color80};
       border: 1px solid ${theme.blue.color80};
       color: ${theme.white.default};
@@ -46,5 +63,13 @@ export const StyledButton = styled.button<ButtonProps>`
       border: 1px solid ${theme.blue.color60};
         transition: 0.2s;
       }
+    `}
+
+    ${({width}) => width && css`
+      width: ${width};
+    `}
+
+    ${({height}) => height && css`
+      height: ${height};
     `}
 `;

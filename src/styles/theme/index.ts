@@ -13,10 +13,10 @@ export const theme = {
         color10: "#c1f1fc",
         color20: "#a9dced",
         color30: "#8fbfd6",
-        color40: "#",
-        color50: "#",
+        color40: "#48cae4",
+        color50: "#0096c7",
         color60: "#394f63",
-        color70: "#",
+        color70: "#023e8a",
         color80: "#0d2845",
         color90: "#07172b",
         color100: "#020914"

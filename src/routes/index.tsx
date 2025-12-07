@@ -5,6 +5,8 @@ import { Investments } from "../pages/Investments";
 import { Movements } from "../pages/movements";
 import { Goals } from "../pages/goals";
 import { Calendar } from "../pages/calendar";
+import { Login } from "../pages/core/login";
+import { RegisterUser } from "../pages/core/register";
 
 export function Router() {
   return (
@@ -17,6 +19,9 @@ export function Router() {
         <Route path="/goals" element={<Goals />} />
         <Route path="/calendar" element={<Calendar />} />
       </Route>
+
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<RegisterUser />} />
     </Routes>
   );
 }
